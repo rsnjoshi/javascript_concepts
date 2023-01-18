@@ -5,7 +5,7 @@ let name = 'Shankar';
 console.log('displaying the name from variable' + name);
 
 // multiple variable declaration in a single line , not recommended for standard coding practice
-let lastname = 'Neupane', age = 25, address = 'butwal';
+let lastname = 'Neupane', Age = 25, address = 'butwal';
 console.log('my last name is ' + lastname + ' age is ' + age + ' address is ' + address + ' ');
 
 //multi line variable declaration
@@ -37,11 +37,15 @@ var a = 'value1';
 var a = 'redeclaredvalue';
 console.log(a); // displayes the redeclared value of a 
 
+//variable is not bound to a type; hence JS is a dynamically typed language
+let message ="hello";
+message = 123456; //displays this value 
+
 //Hard coded const values displayed in uppercase as their values are already known prior to execution
 const COLOR_RED = "#F00"
 const BIRTHDAY = "10.08.1997" //Birthday is already known to the user
 alert(COLOR_RED); //F00
-const age = calculateAge(BIRTHDAY);
+const age = calculateAge(BIRTHDAY); //storing anything in a const/variable
 function calculateAge() {
 
 }
